@@ -91,37 +91,53 @@
           </div>
         </div>
       </section>
-      <section class="contact-sec" id="contato">
-        <h2>Contato</h2>
-        <ul class="contact-sec__ul">
-          <li class="contact-sec__ul__li" link="https://github.com/luisfr364">
-            <img
-              class="contact-sec__ul__li__img"
-              src="./img/github-icon.png"
-              alt="Logo do github"
-            />
-            <p>Github</p>
-          </li>
-          <li
-            class="contact-sec__ul__li"
-            link="https://linkedin.com/in/luisf364"
-          >
-            <img
-              class="contact-sec__ul__li__img"
-              src="./img/linkedin.png"
-              alt="Logo do linkedin"
-            />
-            <p>Linkedin</p>
-          </li>
-          <li class="contact-sec__ul__li" link="mailto:luisfr364@gmail.com">
-            <img
-              class="contact-sec__ul__li__img"
-              src="./img/gmail.png"
-              alt="Logo do gmail"
-            />
-            <p>Email</p>
-          </li>
-        </ul>
+      <section class="contact-sec">
+        <div class="contact-sec__form-container">
+          <h2 class="contact-sec__form__title">Entre em Contato</h2>
+          <form action="enviar_email.php" method="POST">
+            <div class="contact-sec__form__group">
+              <label class="contact-sec__form__label" for="nome">Nome:</label>
+              <input
+                class="contact-sec__form__input"
+                type="text"
+                id="nome"
+                name="nome"
+                placeholder="Seu nome"
+                required
+              />
+            </div>
+            <div class="contact-sec__form__group">
+              <label class="contact-sec__form__label" for="email"
+                >E-mail:</label
+              >
+              <input
+                class="contact-sec__form__input"
+                type="email"
+                id="email"
+                name="email"
+                placeholder="seuemail@example.com"
+                required
+              />
+            </div>
+            <div class="contact-sec__form__group">
+              <label class="contact-sec__form__label" for="mensagem"
+                >Mensagem:</label
+              >
+              <textarea
+                class="contact-sec__form__textarea"
+                id="mensagem"
+                name="mensagem"
+                placeholder="Digite sua mensagem aqui..."
+                required
+              ></textarea>
+            </div>
+            <div class="contact-sec__form__group">
+              <button class="contact-sec__form__button" type="submit">
+                Enviar
+              </button>
+            </div>
+          </form>
+        </div>
       </section>
     </main>
     <script src="./main.js"></script>

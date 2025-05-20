@@ -188,31 +188,62 @@ body {
 .portfolio-sec__ul__li > a {
   color: black;
 }
-
-#contact-sec {
+.contact-sec {
   height: 50svh;
 }
-.contact-sec > h2 {
-  margin-top: 3em;
-  text-align: center;
-  font-size: 2.5rem;
-  font-weight: 700;
+
+.contact-sec__form-container {
+  margin: 1em auto;
+  background-color: #fff;
+  padding: 30px;
+  border: 2px solid black;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
 }
 
-.contact-sec__ul {
-  width: 60%;
-  margin: 2em 37.5svw;
-  display: flex;
-  gap: 1.5em;
+/* Título */
+.contact-sec__form__title {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333;
 }
 
-.contact-sec__ul__li {
-  width: 8%;
-  border: solid 2px black;
-  padding: 1.5em;
-  text-align: center;
+.contact-sec__form__group {
+  margin-bottom: 15px;
 }
 
-.contact-sec__ul__li__img {
-  width: 60px;
+.contact-sec__form__label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #555;
+}
+
+.contact-sec__form__input,
+.contact-sec__form__textarea {
+  width: 95%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.contact-sec__form__textarea {
+  resize: none;
+  height: 100px;
+}
+
+.contact-sec__form__button {
+  width: 100%;
+  padding: 10px;
+  color: #000000;
+  border: 2px solid black;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.contact-sec__form__button:hover {
+  background-color: #7c7c7c;
 }
