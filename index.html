@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/reset.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <title>Luis - Portfolio</title>
+  </head>
+  <body>
+    <header>
+      <div class="header__container">
+        <div class="header__container__title">
+          <h1 id="main-title">Luis Fernando</h1>
+          <span id="main-title__subtitle">Full-stack Dev</span>
+        </div>
+        <nav class="header__container__nav">
+          <ul class="nav__list">
+            <li><a class="nav__list__anchor" href="#sobremim">Sobre Mim</a></li>
+            <li><a class="nav__list__anchor" href="#formacao">Formação</a></li>
+            <li>
+              <a class="nav__list__anchor" href="#portfolio">Portfólio</a>
+            </li>
+            <li><a class="nav__list__anchor" href="#contato">Contato</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section class="about-sec" id="sobremim">
+        <div class="about-sec__container">
+          <div class="about-sec__container__txt">
+            <h2>Sobre Mim</h2>
+            <p>
+              Olá! Meu nome é Luis Fernando, e sou um entusiasta da tecnologia e
+              da inovação. Como estudante de Ciência da Computação, estou sempre
+              explorando novas ideias, desenvolvendo projetos e aprimorando
+              minhas habilidades em programação e desenvolvimento full-stack.
+              Acredito que a tecnologia tem o poder de transformar o mundo, e
+              estou determinado a fazer parte dessa revolução.
+            </p>
+          </div>
+          <span class="about-sec__container__divider"></span>
+          <img
+            class="about-sec__container__img"
+            src="./img/code_img.jpeg"
+            alt=""
+            srcset=""
+          />
+        </div>
+      </section>
+      <section class="graduate-sec" id="formacao">
+        <h2>Formação</h2>
+        <div class="graduate-sec__container">
+          <ul class="graduate-sec__container__ul">
+            <li class="graduate-sec__container__ul__li">
+              <h4>Ciência da computação</h4>
+              <p>Uninter</p>
+              <p>Cursando</p>
+            </li>
+            <li class="graduate-sec__container__ul__li--divider"></li>
+            <li class="graduate-sec__container__ul__li">
+              <h4>Capacita Brasil</h4>
+              <p>UECE / Atlantico Avanti</p>
+              <p>Cursando</p>
+            </li>
+            <li></li>
+          </ul>
+        </div>
+      </section>
+      <section class="portfolio-sec" id="portfolio">
+        <h2>Portfólio</h2>
+        <div class="portfolio-sec__outter-container">
+          <div class="portfolio-sec__container">
+            <ul class="portfolio-sec__ul">
+              <li class="portfolio-sec__ul__li">
+                <h4>KanaSearch</h4>
+                <p>Extensão para navegador com dicionário integrado e OCR.</p>
+                <a href="https://github.com/luisfr364/kanaSearch">Github</a>
+              </li>
+              <li class="portfolio-sec__ul__li">
+                <h4>BoneLoader</h4>
+                <p>
+                  Pequena lib em react para animações customizáveis do tipo
+                  "BoneLoading".
+                </p>
+                <a href="https://github.com/luisfr364/bone-loader">Github</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section class="contact-sec" id="contato">
+        <h2>Contato</h2>
+        <ul class="contact-sec__ul">
+          <li class="contact-sec__ul__li" link="https://github.com/luisfr364">
+            <img
+              class="contact-sec__ul__li__img"
+              src="./img/github-icon.png"
+              alt="Logo do github"
+            />
+            <p>Github</p>
+          </li>
+          <li
+            class="contact-sec__ul__li"
+            link="https://linkedin.com/in/luisf364"
+          >
+            <img
+              class="contact-sec__ul__li__img"
+              src="./img/linkedin.png"
+              alt="Logo do linkedin"
+            />
+            <p>Linkedin</p>
+          </li>
+          <li class="contact-sec__ul__li" link="mailto:luisfr364@gmail.com">
+            <img
+              class="contact-sec__ul__li__img"
+              src="./img/gmail.png"
+              alt="Logo do gmail"
+            />
+            <p>Email</p>
+          </li>
+        </ul>
+      </section>
+    </main>
+    <script src="./main.js"></script>
+  </body>
+</html>
